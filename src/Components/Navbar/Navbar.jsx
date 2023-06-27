@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import { AiOutlineShoppingCart } from "react-icons/ai";
 function Navbar() {
   return (
     <div className="flex flex-row justify-between items-center p-5 container mx-auto">
@@ -21,7 +22,7 @@ function Navbar() {
           className="bg-white shadow-lg placeholder:flex placeholder:items-center placeholder:justify-center placeholder:p-1 rounded-lg h-10 placeholder:mt-3"
         />
         <div>
-          <Image src="/caffe/icon.svg" width={32} height={23} />
+        <button className='p-2 bg-orange rounded-full hover:bg-transparent hover:border-2 hover:border-orange hover:solid hover:text-orange'><AiOutlineShoppingCart className='text-xl text-white hover:text-orange'/></button>
         </div>
       </div>
     </div>

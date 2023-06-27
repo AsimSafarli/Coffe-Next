@@ -5,7 +5,7 @@ import {AiFillStar, AiOutlineShoppingCart} from 'react-icons/ai'
 function Popular() {
   return (
     <div>
-     <div className='text-black text-3xl '>
+     <div className='text-black text-3xl text-center md:text-left'>
      Popular <span className='underline decoration-solid decoration-orange decoration-4 '>Now</span>
      </div>
      <div className='flex md:flex-row  flex-col items-center flex-wrap gap-y-10 justify-between mt-5' >

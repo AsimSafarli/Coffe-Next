@@ -1,3 +1,4 @@
+import About from '@/Components/About/About'
 import Banner from '@/Components/Banner/Banner'
 import Navbar from '@/Components/Navbar/Navbar'
 import Popular from '@/Components/Popular/Popular'
@@ -12,6 +13,7 @@ export default function Home() {
        <Banner/>
        <Popular/>
        <Service/>
+       <About/>
    </div>
   )
 }

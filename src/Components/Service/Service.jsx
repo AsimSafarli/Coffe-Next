@@ -4,10 +4,10 @@ import Image from 'next/image'
 function Service() {
   return (
     <div>
-    <div className='text-black text-3xl '>
+    <div className='text-black text-3xl text-center md:text-left'>
     How to use delivery  <span className='underline decoration-solid decoration-orange decoration-4 '>service</span>
      </div>
-     <div className='mt-5 flex flex-row items-center justify-around'>
+     <div className='flex md:flex-row  flex-col items-center flex-wrap gap-y-10 justify-between mt-5' >
       {
         service.map((item)=>(
             <div key={item.id} className='flex flex-col items-center justify-center '>
