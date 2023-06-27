@@ -1,6 +1,7 @@
 import Banner from '@/Components/Banner/Banner'
 import Navbar from '@/Components/Navbar/Navbar'
 import Popular from '@/Components/Popular/Popular'
+import Service from '@/Components/Service/Service'
 import Image from 'next/image'
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
        <Navbar/>
        <Banner/>
        <Popular/>
+       <Service/>
    </div>
   )
 }

@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Choose your coffee",
+    "image": "/caffe/image.png",
+    "describe": "there are 20+ coffees for you"
+  },
+  {
+    "id": 2,
+    "name": "We delivery it to you",
+    "image": "/caffe/food.png",
+    "describe": "Choose delivery service"
+  },
+  {
+    "id": 3,
+    "name": "Enjoy your coffee",
+    "image": "/caffe/coffee-cup.png",
+    "describe": "Choose delivery service"
+  }
+]

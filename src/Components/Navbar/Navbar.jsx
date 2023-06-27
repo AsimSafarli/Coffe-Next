@@ -10,9 +10,9 @@ function Navbar() {
         height={48} />
       </div>
       <div className="flex flex-row items-center gap-x-8">
-        <div>About us</div>
-        <div>Our Product</div>
-        <div>Delivery</div>
+        <div className="hover:text-orange">About us</div>
+        <div className="hover:text-orange">Our Product</div>
+        <div className="hover:text-orange">Delivery</div>
       </div>
       <div className="flex flex-row gap-x-8">
         <input
