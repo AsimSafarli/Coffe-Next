@@ -1,5 +1,55 @@
 [
     {
-        
-    }
+      "id":1,
+      "name":"Sandwich",
+
+      "rating":4.8,
+      "image":"/caffe/sanwich.png",
+      "price":"21k",
+      "describe":"Bread with meat and vegetables"
+    },
+    {
+        "id":2,
+        "name":"Hot Milk",
+        "rating":4.8,
+        "image":"/caffe/hotmilk.png",
+        "price":"12k",
+        "describe":"Hot Milk with less sugar"
+
+    },
+    {
+        "id":3,
+        "name":"Coffe Ice Cream",
+        "rating":4.8,
+        "image":"/caffe/coffemilk.png",
+        "price":"23k",
+        "describe":"Coffe with ice cream vanilla"
+
+    }, {
+        "id":4,
+        "name":"Cappucino",
+  
+        "rating":4.8,
+        "image":"/caffe/cappicino.png",
+        "price":"21k",
+        "describe":"Hot Cappucino"
+      },
+      {
+          "id":5,
+          "name":"Moccacinno",
+          "rating":4.8,
+          "image":"/caffe/mocco.png",
+          "price":"12k",
+          "describe":"Hot Moccacino "
+  
+      },
+      {
+          "id":6,
+          "name":"Waffle Ice Crem",
+          "rating":4.8,
+          "image":"/caffe/waffle.png",
+          "price":"23k",
+          "describe":"Wafle with Ice cream"
+  
+      }
 ]
