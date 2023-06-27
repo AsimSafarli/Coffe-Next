@@ -3,7 +3,7 @@ import React from 'react'
 import {AiOutlineShoppingCart} from 'react-icons/ai'
 function Banner() {
   return (
-    <div className='container mx-auto flex flex-row justify-between gap-x-44'>
+    <div className='container mx-auto flex md:flex-row flex-col items-center gap-y-10 justify-between gap-x-44'>
         <div className='flex flex-col gap-y-6'>
         <div className='text-5xl'>
         Enjoy your <span className='text-orange'>coffee</span> <br></br>before your activity

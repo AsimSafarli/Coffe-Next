@@ -1,0 +1,32 @@
+[
+    {
+      "id":1,
+      "name":"Vanilla Latte",
+
+      "rating":4.8,
+      "image":"/caffe/latte.png",
+      "price":"21k",
+      "hot":"Hot",
+      "cold":"Cold"
+    },
+    {
+        "id":2,
+        "name":"Espresso",
+        "rating":4.8,
+        "image":"/caffe/espresso.png",
+        "price":"12k",
+        "hot":"Hot",
+        "cold":"Cold"
+
+    },
+    {
+        "id":3,
+        "name":"Hazelnut Latte",
+        "rating":4.8,
+        "image":"/caffe/hazelnut.png",
+        "price":"23k",
+        "hot":"Hot",
+        "cold":"Cold"
+
+    }
+]
